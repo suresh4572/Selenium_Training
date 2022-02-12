@@ -20,6 +20,8 @@ public class Priority {
 	public void testM3() {
 
 		System.out.println(" i m in testM3");
+		//git commit
+		System.out.println(" adding changes in git repository");
 	}
 
 }
