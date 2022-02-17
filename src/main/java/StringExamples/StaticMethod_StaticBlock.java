@@ -6,7 +6,7 @@ public class StaticMethod_StaticBlock {
 	static String empname;
 	static String empdept;
 
-	int a = 10;
+	int a = 12;
 
 	// static blocks are used to initialize static variables
 
@@ -34,7 +34,7 @@ public class StaticMethod_StaticBlock {
 
 	public void normalMethod() {
 
-		System.out.println(a);
+		System.out.println("Normal method variable is :"+a);
 	}
 
 	public static void main(String[] args) {

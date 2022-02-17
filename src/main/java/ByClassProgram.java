@@ -47,7 +47,7 @@ public class ByClassProgram {
 		Login.findElement(driver).click();
 
 		Thread.sleep(2000);
-
+		
 		exams.findElement(driver).click();
 		marksEntry.findElement(driver).click();
 

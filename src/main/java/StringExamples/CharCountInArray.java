@@ -8,10 +8,10 @@ public class CharCountInArray {
 		
 		 String s = "suresh java programing";
 		int a= s.length(); // total length of string
-		int b= s.replace("a", "").length(); // total length after removing "a"
+		int b= s.replace("s", "").length(); // total length after removing "a"
 		 
 		 int count = a-b;
-		 System.out.println(" Numbers occuers  a is :"+count);
+		 System.out.println(" Number occuers ' a' is :"+count);
 		
 }
 }

@@ -7,7 +7,7 @@ public class Number_Is_Prime_Or_Not {
 		//Number>1
 		//Prime Number has only 2 factros those are 1 and itself
 
-		int num =3;
+		int num =13;
 		int count=0;
 		
 		if(num>1) 

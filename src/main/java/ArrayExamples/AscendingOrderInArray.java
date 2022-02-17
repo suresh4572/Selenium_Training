@@ -1,5 +1,7 @@
 package ArrayExamples;
 
+import java.util.Arrays;
+
 public class AscendingOrderInArray {
 
 	public static void main(String[] args) {
@@ -9,7 +11,6 @@ public class AscendingOrderInArray {
 		int temp =0;
 		
 		// Sort the array in ascending order
-		
 		for(int i=0; i<a.length;i++) {
 			
 			for(int j=i+1;j<a.length;j++) {
@@ -19,18 +20,16 @@ public class AscendingOrderInArray {
 					a[i]=a[j];
 					a[j] = temp;
 				}
-				
-				
 			}
-			
 		}
 		
+System.out.println(" Printing value in Ascending order :"+Arrays.toString(a));
 		// Displaying elements of array after sorting
-		System.out.println("Printing value in Ascending order  :");
-		 for(int i=0;i<a.length;i++) {
-			 
-			 System.out.println(a[i]+" ");
-		 }
+//		System.out.println("Printing value in Ascending order  :");
+//		 for(int i=0;i<a.length;i++) {
+//			 
+//		 System.out.println(a[i]);
+//		 }
 
 	}
 

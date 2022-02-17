@@ -13,7 +13,11 @@ public class ConvertStringToInteger {
 		
 		int num1=Integer.valueOf(str);
 		System.out.println(" 2nd Approach of Converted String to Interger "+num1);
+		
+	
 
 	}
+	
+	
 
 }

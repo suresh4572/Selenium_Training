@@ -19,8 +19,7 @@ public class MatrixMultiplilcation {
 				{
 					
 					sum=sum+a[i][k]*b[k][j];
-					
-				}
+					}
 				r[i][j]=sum;
 				sum=0;
 				
@@ -36,6 +35,7 @@ public class MatrixMultiplilcation {
 			}
 			System.out.println();
 		}
+		
 	}
 }
 

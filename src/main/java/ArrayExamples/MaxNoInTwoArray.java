@@ -15,14 +15,14 @@ public class MaxNoInTwoArray {
 		   for(int j=0;j<a[0].length;j++)
 		   {
 			   
-			   if(max<a[i][j]) {
+			   if(a[i][j]>max) {
 				   
 				   max=a[i][j];
 			   }
 		   }
 	   }
 	   
-	   System.out.println(" Print Max NO in Array :"+max);
+	   System.out.println(" Print Max no in Array :"+max);
 	}
 
 

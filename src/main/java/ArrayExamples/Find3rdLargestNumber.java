@@ -2,8 +2,7 @@ package ArrayExamples;
 
 public class Find3rdLargestNumber {
 
-	private static final int INT_MIN = 0;
-
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -27,8 +26,6 @@ public class Find3rdLargestNumber {
 			 if(a[i]>second && a[i]<first) {
 				 
 				 second =a[i];
-				 
-				 
 			 }
 		 }
 		 System.out.println("Print Second Largest No :"+second);

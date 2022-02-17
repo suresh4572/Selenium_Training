@@ -1,5 +1,7 @@
 package ArrayExamples;
 
+import java.util.Arrays;
+
 public class CopyArray {
 
 public static void main(String[] args) {
@@ -17,17 +19,17 @@ public static void main(String[] args) {
 		
 	}
 	//Displaying elements of array arr1
-	System.out.println(" Elemetns of original array :");
+	System.out.println(" Elements of original array :");
+	
 
 	for(int i=0; i<arr1.length;i++) {
-		System.out.println(arr1[i]+"");
-	}
+		System.out.println(arr1[i]+" ");	}
 	System.out.println();
 	
 	// Displaying elements of array arr2
   System.out.println("Elements of new array:");
   
-	for(int i=0; i<arr2.length;i++) {
+for(int i=0; i<arr2.length;i++) {
 	
 		System.out.println(arr2[i]+"");
 	

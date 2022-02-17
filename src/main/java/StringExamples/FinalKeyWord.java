@@ -5,7 +5,7 @@ public class FinalKeyWord {
 	int a;
 	void myMethod() {
 		
-		//We can,t change value for final variable
+		//We can't change value for final variable
 	 //Max_Value=101;
 		a=100;
 		System.out.println(Max_Value);

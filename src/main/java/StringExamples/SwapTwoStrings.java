@@ -12,7 +12,7 @@ public class SwapTwoStrings {
 		  
 		  // 1.append  a and b:
 		  a=a+b; //HelloWorld
-		  //2. Stroe initial string value in string b
+		  //2. Store initial string a value in string b
 		  
 		  b=a.substring(0, a.length()-b.length()); //Hello
 		  // 3.Store initial string b in string a:

@@ -5,7 +5,7 @@ public class MinNumberInTwoDimentionalArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[][] a ={{6,8,2,1},{10,3,9,5}};
+		int[][] a ={{6,8,2},{10,3,9,5}};
 		
 		int min = a[0][0]; 
 		

@@ -14,6 +14,7 @@ public class DateDemo {
 		SimpleDateFormat sdf = new SimpleDateFormat("M/d/yyyy hh:mm:ss");
 		System.out.println(sdf.format(d));
 		System.out.println(d.toString());
+	
 
 	}
 

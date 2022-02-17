@@ -25,7 +25,7 @@ public class RemoveDuplicateArrayValues {
 		//retainAll  is used to print only the common values in both the arraylists
 		array2.retainAll(array1);
 		
-		System.out.println("Printing common values in both the arraylists bu using retainAll: "+array2);
+		System.out.println("Printing common values in both the arraylists by using retainAll: "+array2);
 		
 		
 		//if user wants to completely clear the arraylit values

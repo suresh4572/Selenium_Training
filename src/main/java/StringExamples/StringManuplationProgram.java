@@ -28,7 +28,7 @@ public class StringManuplationProgram {
 	{
 		
 		System.out.println(" Length of String :"+name2.length());
-		System.out.println("UpperCase of String :" +name2.toLowerCase());
+		System.out.println("UpperCase of String :" +name2.toUpperCase());
 		System.out.println("LowerCase of String :"+name2.toLowerCase());
 		System.out.println("Printitng Specific index by passing index number :"+name2.indexOf("a"));
 		System.out.println("Printing specific  character by passing the character :"+name2.charAt(5));

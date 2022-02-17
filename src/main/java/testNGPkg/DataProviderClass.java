@@ -10,6 +10,7 @@ public class DataProviderClass {
 	public void Method1(String UserName, String password, String abc)
 
 	{
+		System.out.println("Username 3:" + UserName);
 		System.out.println("Username :" + UserName);
 		System.out.println("Password : " + password);
 		System.out.println("ABC :" + abc);
